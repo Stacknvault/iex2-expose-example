@@ -1,0 +1,9 @@
+{
+    "excludes": [
+        {"fieldName": "entity.addresses", "minStage": 2}
+    ],
+    "sections": {
+        "header": 2,
+        "other": 0
+    }
+}

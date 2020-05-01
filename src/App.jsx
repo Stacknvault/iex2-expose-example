@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Header from './sections/Header';
-import {Section} from '@stacknvault/iex2-core'
-
+import Custom from './sections/Custom';
+import {GracefulHeroBanner, ProvisionContractAgreement, SimpleDataTable, ImageWall} from '@stacknvault/iex2-core'
 
 
 function App() {
@@ -12,11 +11,11 @@ function App() {
   
   return (
     <div className="App">
-      <header className="App-header">
-          <Section name="header">
-            <Header/>
-          </Section>
-      </header>
+          <ProvisionContractAgreement className="section"/>
+          <Custom className="section"/>
+          <GracefulHeroBanner className="dotted"/>
+          <SimpleDataTable className="dotted"/>
+          <ImageWall className="section"/>
     </div>
   );
 }

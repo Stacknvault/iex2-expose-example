@@ -1171,10 +1171,10 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
-"@stacknvault/iex2-core@^1.0.18":
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/@stacknvault/iex2-core/-/iex2-core-1.0.18.tgz#5e46991e2b9b5f477ab3c6ed5f4c23e38224a367"
-  integrity sha512-wXG+R3otFwJZjQiKMr0Bx1ZEEmvZlOvagFBZlgLBDSF4wKGcsy80RBNMDdyLn0sqaVFG096CxvLnHRY93yvgQw==
+"@stacknvault/iex2-core@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@stacknvault/iex2-core/-/iex2-core-1.1.5.tgz#455c3e8909dd06f4873f92fbd9791cd00eedd041"
+  integrity sha512-ITopyGBChAe4/a39uvojs0StDaMCVa8NCf+EuYFryO46f23crjZ8kn3XfEARgj4+CAsjWaII4hKkpzsRR+MQhA==
   dependencies:
     archiver "^4.0.1"
     axios "^0.19.2"

@@ -1,13 +1,10 @@
 import React from 'react';
+import { Section } from '@stacknvault/iex2-core/dist/index.jsx';
 
 
-function Header({name, iex, ready, error, config}) {
-  // const { iex, ready, error } = useIEX();
-  // const {context, currentStage} = iex;
-
-  console.log(iex, name);
+function CustomSection({className, name, iex, ready, error, config}) {
   return (
-    <div>
+    <div className={className}>
         {ready && 
           <div>
             Hello stage {iex.context.contact.lastName}! You are at stage {iex.currentStage}
@@ -28,4 +25,12 @@ function Header({name, iex, ready, error, config}) {
   );
 }
 
-export default Header;
+function Custom({className}){
+  return (
+    <Section name="Custom">
+      <CustomSection className={className}/>
+    </Section>
+  );
+}
+
+export default Custom;
